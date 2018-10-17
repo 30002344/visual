@@ -32,10 +32,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtLname = new System.Windows.Forms.TextBox();
-            this.btnSubmit = new System.Windows.Forms.Button();
             this.txtFullName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtFName
@@ -74,20 +75,6 @@
             this.txtLname.Size = new System.Drawing.Size(100, 20);
             this.txtLname.TabIndex = 3;
             // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.ForeColor = System.Drawing.Color.Black;
-            this.btnSubmit.Location = new System.Drawing.Point(165, 218);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(118, 54);
-            this.btnSubmit.TabIndex = 4;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.ClientSizeChanged += new System.EventHandler(this.button1_Click);
-            this.btnSubmit.Enter += new System.EventHandler(this.button1_Click);
-            this.btnSubmit.MouseEnter += new System.EventHandler(this.button1_Click);
-            // 
             // txtFullName
             // 
             this.txtFullName.Location = new System.Drawing.Point(165, 336);
@@ -118,11 +105,37 @@
             this.label4.Text = "Please Enter Your Name";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.ForeColor = System.Drawing.Color.Black;
+            this.btnSubmit.Location = new System.Drawing.Point(165, 218);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(118, 54);
+            this.btnSubmit.TabIndex = 4;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.ClientSizeChanged += new System.EventHandler(this.button1_Click);
+            this.btnSubmit.Enter += new System.EventHandler(this.button1_Click);
+            this.btnSubmit.MouseEnter += new System.EventHandler(this.button1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(237, 158);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 54);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Submit";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(467, 429);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtFullName);
@@ -145,10 +158,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtLname;
-        private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.TextBox txtFullName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button button1;
     }
 }
 
